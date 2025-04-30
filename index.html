@@ -3,131 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ポートフォリオ | kqlnei</title>
+  <title>倉田康平 | ポートフォリオ</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.8;
+      font-family: "Segoe UI", "ヒラギノ角ゴ ProN", Meiryo, sans-serif;
+      background: #f4f7fa;
+      color: #333;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fa;
-      color: #212529;
-    }
-    header, section {
-      padding: 2em;
-      max-width: 900px;
-      margin: auto;
+      line-height: 1.7;
     }
     header {
-      background-color: #343a40;
-      color: white;
+      background: #dbeafe;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 3px dotted #9ac5f4;
     }
-    h1, h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.3em;
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #2b4c7e;
     }
-    ul {
-      padding-left: 1.5em;
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+      color: #5a5a5a;
+    }
+    .content {
+      padding: 2rem 10%;
+      max-width: 960px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      color: #2b4c7e;
+      border-bottom: 2px solid #c2ddff;
+      padding-bottom: 0.3rem;
     }
     .project {
-      margin-bottom: 2em;
+      border: 1px solid #d0dbe9;
+      border-left: 6px solid #8ebef3;
+      background: #ffffff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
     }
     a {
-      color: #007bff;
+      color: #2a6bcc;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 2em;
-    }
-    table, th, td {
-      border: 1px solid #ccc;
-    }
-    th, td {
-      padding: 0.5em;
-      text-align: left;
+    footer {
+      background: #dbeafe;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 3px dotted #9ac5f4;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>kqlneiのポートフォリオ</h1>
-    <p>ゲーム開発とVR研究に取り組むエンジニア志望</p>
+    <h1>倉田康平</h1>
+    <p>東京工芸大学 芸術学部 ゲーム学科</p>
   </header>
-
-  <section>
-    <h2>キャリア</h2>
-    <p>まずは基盤となる技術力を確実に身につけ、IT業界全体で通用するエンジニアとして成長したいと考えています。リアルタイム処理、3Dグラフィックス、ユーザー体験設計、サーバー管理、バックエンド開発など幅広い分野を習得し、応用できる力を磨いていきます。</p>
-  </section>
-
-  <section>
-    <h2>自己PR</h2>
-    <p>Unityを用いたVRゲームのゼミ開発やチームでのゲーム制作を経験し、ユーザーが直感的に楽しめるインターフェースや没入感を重視した実装を行ってきました。C言語やVisual Basic .NETなどでの個人制作を通して、わかりやすいコードを意識しながら基礎力も養いました。</p>
-  </section>
-
-  <section>
-    <h2>強みと弱み</h2>
-    <h3>強み</h3>
-    <ul>
-      <li>戦略的思考力（拡張性や保守性を考慮した設計）</li>
-      <li>自律的な学習姿勢（技術書やVRChat開発）</li>
-      <li>品質へのこだわり（細部まで丁寧に設計）</li>
-      <li>チーム開発の経験（協調性・Git運用）</li>
-    </ul>
-    <h3>弱み</h3>
-    <ul>
-      <li>過度な完璧主義（段階的な開発で克服）</li>
-      <li>直接的なコミュニケーション（共感を意識）</li>
-      <li>新しい環境への適応（あえて挑戦する姿勢）</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>プログラミングスキル</h2>
-    <table>
-      <tr><th>言語・技術</th><th>用途</th><th>概要</th></tr>
-      <tr><td>Java</td><td>授業</td><td>教材中心の学習</td></tr>
-      <tr><td>C</td><td>授業</td><td>Dxlibでゲーム制作</td></tr>
-      <tr><td>C++</td><td>授業</td><td>DLLやソケット通信</td></tr>
-      <tr><td>RDBMS</td><td>授業</td><td>OracleでDB構築</td></tr>
-      <tr><td>VisualBasic.NET</td><td>授業</td><td>電卓アプリ開発</td></tr>
-      <tr><td>C#</td><td>授業</td><td>Unityゲーム開発</td></tr>
-    </table>
-  </section>
-
-  <section>
-    <h2>制作物</h2>
-    <div class="project">
-      <h3><a href="https://github.com/kqlnei/ServerOthello" target="_blank">オセロ通信ゲーム</a></h3>
-      <p>C++とWinsock2によるサーバー・クライアント構成。リアルタイム通信とエラー処理の工夫。</p>
-    </div>
-    <div class="project">
-      <h3><a href="https://github.com/kqlnei/DxlibShotGame" target="_blank">Dxlib横スクロールシューティング</a></h3>
-      <p>2Dゲームの基本構造を構造体と演出で表現。プレイヤーと敵の挙動にこだわり。</p>
-    </div>
-    <div class="project">
-      <h3><a href="https://github.com/kqlnei/MetaVRCut" target="_blank">VR敵斬りゲーム</a></h3>
-      <p>VR環境に配慮した酔いにくい設計。マップ自動生成、敵反射などの実装。</p>
-    </div>
-    <div class="project">
-      <h3><a href="https://github.com/kqlnei/TwoH2O" target="_blank">2人協力3Dアクション</a></h3>
-      <p>UnityとGitによるチーム開発。カメラ制御と協力性を意識したシステム設計。</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>研究情報</h2>
-    <p><strong>テーマ：</strong>VRChatにおける没入型協力ゲームワールドの設計</p>
-    <p>非対称型協力プレイによる偶発的出会いの促進を目指したワールド構築を構想中。UdonとUnityによる没入感・操作性の分析を進行中。</p>
-  </section>
-
-  <section>
-    <h2>リンク</h2>
-    <p><a href="https://github.com/kqlnei" target="_blank">GitHub プロフィールはこちら</a></p>
-  </section>
+  <div class="content">
+    <section>
+      <h2>キャリア目標</h2>
+      <p>
+        まずは基盤となる技術力を確実に身につけ、IT業界全体で通用するエンジニアとして成長したいと考えています。...
+      </p>
+    </section>
+    <section>
+      <h2>自己PR</h2>
+      <p>大学在学中、私は、6〜9人のチームでのゲーム制作プロジェクトを経験しました。...</p>
+    </section>
+    <section>
+      <h2>強みと弱み</h2>
+      <p><strong>強み:</strong> 戦略的思考力、自律的な学習姿勢、品質へのこだわり、チーム開発の経験<br>
+         <strong>弱み:</strong> 過度な完璧主義、直接的なコミュニケーション、新しい環境への適応</p>
+    </section>
+    <section>
+      <h2>プログラミングスキル</h2>
+      <ul>
+        <li>Java - 学校の授業で基礎を学習</li>
+        <li>C/C++ - DxLibやソケット通信を用いたゲーム制作</li>
+        <li>C# - UnityでのVRゲーム・3Dアクション開発</li>
+        <li>RDBMS - Oracleで成績管理データベース構築</li>
+        <li>VB.NET - 電卓アプリ制作</li>
+      </ul>
+    </section>
+    <section>
+      <h2>制作物</h2>
+      <div class="project">
+        <h3><a href="https://github.com/kqlnei/ServerOthello">Server Othello</a></h3>
+        <p>ソケット通信を用いたC++製オセロゲーム。リアルタイム通信設計やリソース管理を工夫。</p>
+      </div>
+      <div class="project">
+        <h3><a href="https://github.com/kqlnei/DxlibShotGame">2D横スクシューティング</a></h3>
+        <p>DxLibを使用し、エフェクトやゲームテンポにこだわった作品。</p>
+      </div>
+      <div class="project">
+        <h3><a href="https://github.com/kqlnei/MetaVRCut">VRゲーム (Meta Quest)</a></h3>
+        <p>VRで敵を切り進む没入型ゲーム。マップ自動生成やVR酔い対策も実施。</p>
+      </div>
+      <div class="project">
+        <h3><a href="https://github.com/kqlnei/TwoH2O">2人協力3Dアクション</a></h3>
+        <p>Unityによる協力プレイゲーム。Gitを活用したチーム開発経験。</p>
+      </div>
+    </section>
+    <section>
+      <h2>研究</h2>
+      <p>
+        VRChatプラットフォームにおける没入型協力ゲームワールドの設計研究。ユーザー間の自然な協力を促すインタラクションを探求中。
+      </p>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 倉田康平
+  </footer>
 </body>
 </html>
