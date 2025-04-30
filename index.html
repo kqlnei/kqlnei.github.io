@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ポートフォリオ | kqlnei</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header, section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+    }
+    h1, h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3em;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+    .project {
+      margin-bottom: 2em;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2em;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.5em;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>kqlneiのポートフォリオ</h1>
+    <p>ゲーム開発とVR研究に取り組むエンジニア志望</p>
+  </header>
+
+  <section>
+    <h2>キャリア</h2>
+    <p>まずは基盤となる技術力を確実に身につけ、IT業界全体で通用するエンジニアとして成長したいと考えています。リアルタイム処理、3Dグラフィックス、ユーザー体験設計、サーバー管理、バックエンド開発など幅広い分野を習得し、応用できる力を磨いていきます。</p>
+  </section>
+
+  <section>
+    <h2>自己PR</h2>
+    <p>Unityを用いたVRゲームのゼミ開発やチームでのゲーム制作を経験し、ユーザーが直感的に楽しめるインターフェースや没入感を重視した実装を行ってきました。C言語やVisual Basic .NETなどでの個人制作を通して、わかりやすいコードを意識しながら基礎力も養いました。</p>
+  </section>
+
+  <section>
+    <h2>強みと弱み</h2>
+    <h3>強み</h3>
+    <ul>
+      <li>戦略的思考力（拡張性や保守性を考慮した設計）</li>
+      <li>自律的な学習姿勢（技術書やVRChat開発）</li>
+      <li>品質へのこだわり（細部まで丁寧に設計）</li>
+      <li>チーム開発の経験（協調性・Git運用）</li>
+    </ul>
+    <h3>弱み</h3>
+    <ul>
+      <li>過度な完璧主義（段階的な開発で克服）</li>
+      <li>直接的なコミュニケーション（共感を意識）</li>
+      <li>新しい環境への適応（あえて挑戦する姿勢）</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>プログラミングスキル</h2>
+    <table>
+      <tr><th>言語・技術</th><th>用途</th><th>概要</th></tr>
+      <tr><td>Java</td><td>授業</td><td>教材中心の学習</td></tr>
+      <tr><td>C</td><td>授業</td><td>Dxlibでゲーム制作</td></tr>
+      <tr><td>C++</td><td>授業</td><td>DLLやソケット通信</td></tr>
+      <tr><td>RDBMS</td><td>授業</td><td>OracleでDB構築</td></tr>
+      <tr><td>VisualBasic.NET</td><td>授業</td><td>電卓アプリ開発</td></tr>
+      <tr><td>C#</td><td>授業</td><td>Unityゲーム開発</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>制作物</h2>
+    <div class="project">
+      <h3><a href="https://github.com/kqlnei/ServerOthello" target="_blank">オセロ通信ゲーム</a></h3>
+      <p>C++とWinsock2によるサーバー・クライアント構成。リアルタイム通信とエラー処理の工夫。</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/kqlnei/DxlibShotGame" target="_blank">Dxlib横スクロールシューティング</a></h3>
+      <p>2Dゲームの基本構造を構造体と演出で表現。プレイヤーと敵の挙動にこだわり。</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/kqlnei/MetaVRCut" target="_blank">VR敵斬りゲーム</a></h3>
+      <p>VR環境に配慮した酔いにくい設計。マップ自動生成、敵反射などの実装。</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/kqlnei/TwoH2O" target="_blank">2人協力3Dアクション</a></h3>
+      <p>UnityとGitによるチーム開発。カメラ制御と協力性を意識したシステム設計。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>研究情報</h2>
+    <p><strong>テーマ：</strong>VRChatにおける没入型協力ゲームワールドの設計</p>
+    <p>非対称型協力プレイによる偶発的出会いの促進を目指したワールド構築を構想中。UdonとUnityによる没入感・操作性の分析を進行中。</p>
+  </section>
+
+  <section>
+    <h2>リンク</h2>
+    <p><a href="https://github.com/kqlnei" target="_blank">GitHub プロフィールはこちら</a></p>
+  </section>
+</body>
+</html>
