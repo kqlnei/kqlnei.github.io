@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ポートフォリオ | kqlnei</title>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>ポートフォリオ | 倉田康平</title>
   <style>
     /* ドット背景 */
     body {
       font-family: Arial, sans-serif;
       line-height: 1.8;
-      margin: 0;
-      padding: 0;
+      margin: 0; padding: 0;
       background-color: #f8f9fa;
       background-image: radial-gradient(#ccc 1px, transparent 1px);
       background-size: 20px 20px;
       color: #212529;
     }
 
-    header, section {
+    header, section {      
       padding: 2em;
       max-width: 900px;
       margin: auto;
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255,255,255,0.9);
       backdrop-filter: blur(4px);
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.05);
@@ -34,63 +33,17 @@
       box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     }
 
-    header {
-      background-color: #343a40;
-      color: white;
-    }
-
-    h1, h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.3em;
-    }
-
-    ul {
-      padding-left: 1.5em;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 2em;
-    }
-
-    table, th, td {
-      border: 1px solid #ccc;
-    }
-
-    th, td {
-      padding: 0.5em;
-      text-align: left;
-    }
-
-    a {
-      color: #007bff;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #0056b3;
-    }
-
-    .project {
-      background-color: #ffffff;
-      padding: 1em;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      margin-bottom: 2em;
-    }
-
-    .project:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    }
-
-    .project h3 {
-      margin-top: 0;
-    }
+    header { background-color: #343a40; color: white; }
+    h1, h2 { border-bottom: 2px solid #ccc; padding-bottom: 0.3em; }
+    ul { padding-left: 1.5em; }
+    a { color: #007bff; text-decoration: none; transition: color 0.3s ease; }
+    a:hover { text-decoration: underline; color: #0056b3; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 2em; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 0.5em; text-align: left; }
+    .project { background-color: #fff; padding: 1em; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 2em; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .project:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    .project h3 { margin-top: 0; }
   </style>
 </head>
 <body>
@@ -106,27 +59,26 @@
 
   <section>
     <h2>自己PR</h2>
-    <p>大学在学中、私は、6〜9人のチームでのゲーム制作プロジェクトを経験しました。またUnityを使ったVRゲーム開発のゼミに所属し、チーム開発に積極的に取り組みました。制作期間はチーム制作は半年間で、VRゲームは3ヶ月ほどで開発をしました。私はプログラミングとゲームシステムの実装を担当し、チームメンバーと協力しながら完成まで導きました。</p>
-    <p>ゲーム制作での最大のこだわりは、ユーザーが直感的に楽しめるインターフェースの設計でした。特にゼミの制作ではVR空間での没入感を高めるため、細部の操作感までチューニングを重ね、プレイヤーの体験を最優先に考えた実装を心がけました。また、C言語とDXライブラリを用いた個人制作でも、基礎的なプログラミングスキルを磨き、自分だけでなく他者にも理解しやすいコード記述を意識しました。</p>
-    <p>高校時代にはOracleを使用して成績管理データベースの構築やVisual Basic .NETで電卓アプリを開発するなど、早い段階からプログラミングに触れ、基礎技術の習得に努めてきました。これらの経験から、「動くものを自分で創る」達成感と、新たな技術に関する学習を重ねることで自分の可能性が広がる喜びを実感しました。現在は、VRChatのゲームワールド制作に取り組んでおり、より実践的な開発経験を積もうと考えています。</p>
-    <p>私がエンジニアを目指すきっかけとなったのは、小学生時代の経験です。転校により友達作りに苦労していた時期に、ゲームを通して新しい友人関係を構築できたことで、テクノロジーが人々をつなぐ力に感銘を受けました。この原体験から、「人々の生活を豊かにするデジタル体験」を創造できるエンジニアになりたいという強い思いを持つようになりました。</p>
-    <p>ゲーム開発を通じて、コードを書くことだけでなく、ユーザーがどのように感じるかを常に考える視点を身につけました。特にチーム開発では、「伝わりやすいコードを書く」ことの重要性を肌で感じ、自分では理解しているつもりでも、他のメンバーにとって読みやすいコードを書くよう心がけるようになりました。</p>
+    <p>大学在学中、私は6〜9人のチームでのゲーム制作プロジェクトを経験しました。またUnityを使ったVRゲーム開発のゼミに所属し、チーム開発に積極的に取り組みました。チーム制作は半年間、VRゲームは3ヶ月ほどで開発を行い、プログラミングとゲームシステムの実装を担当し、完成まで導きました。</p>
+    <p>ユーザーが直感的に楽しめるインターフェース設計に最大のこだわりを持ち、ゼミ制作ではVR空間での没入感を高めるため細部の操作感までチューニングを重ねました。C言語とDXライブラリを用いた個人制作では、他者にも理解しやすいコード記述を意識し、基礎的なプログラミングスキルを磨きました。</p>
+    <p>高校時代にはOracleを使用して成績管理データベースを構築し、VB.NETで電卓アプリを開発するなど、早い段階からプログラミングに触れました。この経験から「動くものを創る」達成感を実感し、現在はVRChatのゲームワールド制作に取り組んでいます。</p>
+    <p>小学生時代にゲームを通して友人関係を築いた原体験から、テクノロジーが人をつなぐ力に感銘を受け、「人々の生活を豊かにするデジタル体験」を創造できるエンジニアを志しています。</p>
   </section>
 
   <section>
     <h2>強みと弱み</h2>
     <h3>強み</h3>
     <ul>
-      <li><strong>戦略的思考力</strong><br>長期的な視点から物事を捉え、最適な道筋を見出す能力に長けています。ゲーム開発においても、単に目の前の実装だけでなく、将来の拡張性や保守性を考慮した設計を心がけています。例えば、Unityプロジェクトではチームメンバーのスキルレベルを考慮したタスク分担と開発計画を提案し、納期内に質の高い成果物を完成させました。</li>
-      <li><strong>自律的な学習姿勢</strong><br>新しい技術やツールに対して自発的に学習し習得する強い意欲を持っています。必要な知識は自ら進んで調査・学習し、実践に活かしています。現在取り組んでいるVRChatワールド制作も、自主的な学習の一環です。</li>
-      <li><strong>完璧主義に基づく品質へのこだわり</strong><br>高い品質基準を持ち、成果物に妥協しない姿勢があります。DXライブラリを用いた開発ではユーザー体験の細部にまでこだわり、フィードバックを基に何度も改良を重ねました。</li>
-      <li><strong>チーム開発経験</strong><br>ゼミでのゲーム開発プロジェクトを通じてメンバーとの協力の重要性を学び、コミュニケーションを取りながら開発を進める力を身につけました。</li>
+      <li><strong>戦略的思考力</strong><br>長期的視点から最適な道筋を見出し、拡張性・保守性を考慮した設計を提案できます。</li>
+      <li><strong>自律的な学習姿勢</strong><br>新技術は自発的に調査・習得し、実践に活かすことができ、VRChat制作も自主学習で進めています。</li>
+      <li><strong>品質へのこだわり</strong><br>完璧主義に基づきフィードバックを重ねて改良し、ユーザー体験の細部までこだわります。</li>
+      <li><strong>チーム開発経験</strong><br>協調性を持ち、Git運用やコミュニケーションで高品質な成果物を達成しました。</li>
     </ul>
     <h3>弱み</h3>
     <ul>
-      <li><strong>過度な完璧主義</strong><br>時に理想を追求するあまり進行が遅れることがあります。この傾向を自覚し、「完成版」と「MVP」を明確に区別し、段階的な開発計画を立てることで克服に努めています。</li>
-      <li><strong>コミュニケーションの直接性</strong><br>論理的で率直なコミュニケーションスタイルが厳しく映ることがあります。チーム開発ではメンバーの意見を定期的に聞く習慣を取り入れ、関係性を改善しました。</li>
-      <li><strong>新しい環境への適応</strong><br>構造化された環境を好むため未知の状況への対応に時間がかかりますが、意識的にコンフォートゾーンを超える課題に取り組み、適応力を高めています。</li>
+      <li><strong>過度な完璧主義</strong><br>MVPと完成版の区別を明確にし、段階的に進めることで克服中です。</li>
+      <li><strong>コミュニケーションの直接性</strong><br>相手の意見を定期的に聞く習慣を取り入れ、柔軟な対話を心掛けています。</li>
+      <li><strong>環境適応力</strong><br>未知環境でもコンフォートゾーンを超える挑戦で適応力を高めています。</li>
     </ul>
   </section>
 
@@ -136,55 +88,61 @@
       <tr><th>言語・技術</th><th>用途</th><th>概要</th></tr>
       <tr><td>Java</td><td>授業</td><td>教材中心の学習</td></tr>
       <tr><td>C</td><td>授業</td><td>DxLibでゲーム制作</td></tr>
-      <tr><td>C++</td><td>授業</td><td>DLLやソケット通信</td></tr>
-      <tr><td>RDBMS</td><td>授業</td><td>OracleでDB構築</td></tr>
-      <tr><td>VB.NET</td><td>授業</td><td>電卓アプリ開発</td></tr>
-      <tr><td>C#</td><td>授業</td><td>Unityゲーム開発</td></tr>
+      <tr><td>C++</td><td>授業・個人</td><td>DLL・ソケット通信・AI実装</td></tr>
+      <tr><td>Oracle</td><td>DB構築</td><td>成績管理システム</td></tr>
+      <tr><td>VB.NET</td><td>授業</td><td>電卓アプリ制作</td></tr>
+      <tr><td>C#</td><td>Unity</td><td>ゲーム開発（VR含む）</td></tr>
     </table>
   </section>
 
   <section>
     <h2>制作物</h2>
+
     <div class="project">
       <h3>オセロ通信ゲーム</h3>
-      <p><strong>概要：</strong>サーバーとクライアントでリアルタイム通信するオセロゲーム。</p>
-      <p><strong>技術スタック：</strong>C++、Winsock2 API。</p>
-      <p><strong>工夫した点：</strong>エラー処理とリソース管理を徹底。</p>
+      <p><strong>概要：</strong>サーバー・クライアント構成でオンライン対戦可能なオセロゲーム。</p>
+      <p><strong>技術スタック：</strong>C++、Winsock2 API、Windows環境。</p>
+      <p><strong>工夫した点：</strong>WSAStartup/WSACleanup管理、ZeroMemory活用によるリソース管理とエラー処理を徹底し、安全で安定した通信基盤を構築しました。</p>
       <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/ServerOthello" target="_blank">ServerOthello</a></p>
     </div>
+
     <div class="project">
       <h3>2D横スクロールシューティングゲーム</h3>
-      <p><strong>概要：</strong>Dxlibを使った2D横スクロールシューティング。</p>
-      <p><strong>技術スタック：</strong>C++、DxLib。</p>
-      <p><strong>工夫した点：</strong>構造体管理、ベクトル計算、動的エフェクト、入力判定最適化。</p>
+      <p><strong>概要：</strong>DxLibライブラリで実装した2D横スクロールシューティング。</p>
+      <p><strong>技術スタック：</strong>C++、DxLib、Windows API。</p>
+      <p><strong>工夫した点：</strong>構造体による要素管理、ベクトル計算による弾道制御、背景スクロール実装、入力状態管理で連続/単発判定を明確化し操作性を向上。</p>
       <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/DxlibShotGame" target="_blank">DxlibShotGame</a></p>
     </div>
+
     <div class="project">
       <h3>VRアクションゲーム</h3>
-      <p><strong>概要：</strong>VRで敵を切り進むゲーム。</p>
-      <p><strong>技術スタック：</strong>Unity、Meta XR SDK。</p>
-      <p><strong>工夫した点：</strong>酔わない設計、マップ自動生成、反射処理プロトタイプ。</p>
+      <p><strong>概要：</strong>Meta XR SDKを用いてVR環境で敵を切り進むアクションゲーム。</p>
+      <p><strong>技術スタック：</strong>Unity、Meta XR All-in-One SDK。</p>
+      <p><strong>工夫した点：</strong>酔いにくい操作設計、マップ自動生成、Boss球の反射と敵挙動プロトタイプを行い、VR体験を快適にしました。</p>
       <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/MetaVRCut" target="_blank">MetaVRCut</a></p>
     </div>
+
     <div class="project">
       <h3>2人協力3Dアクションゲーム</h3>
-      <p><strong>概要：</strong>協力重視の横スクロール3Dアクション。</p>
-      <p><strong>技術スタック：</strong>Unity（C#）、Git。</p>
-      <p><strong>工夫した点：</strong>ズーム・パンカメラ制御、バージョン管理運用。</p>
+      <p><strong>概要：</strong>Unityで制作した2人協力型横スクロール3Dアクション。</p>
+      <p><strong>技術スタック：</strong>Unity（C#）、Git/GitHub、Visual Studio。</p>
+      <p><strong>工夫した点：</strong>プレイヤー位置連動のズーム・パンカメラ制御で協力体験を最適化。Git運用でタスク分担とコンフリクト管理を効率化しました。</p>
       <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/TwoH2O" target="_blank">TwoH2O</a></p>
     </div>
+
     <div class="project">
       <h3>AI対戦オセロ</h3>
-      <p><strong>概要：</strong>コンソールで対戦可能なオセロ。</p>
+      <p><strong>概要：</strong>コンソール上でCPUと対戦可能なオセロゲーム。</p>
       <p><strong>技術スタック：</strong>C++。</p>
-      <p><strong>工夫した点：</strong>Minimax＋α-βプルーニング、独自評価関数、Unicode盤面描画。</p>
+      <p><strong>工夫した点：</strong>Minimax＋α-βプルーニングによる探索最適化、独自評価関数でAI強度調整、Unicode文字による見やすい盤面表示を実装。</p>
       <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/AIvsOthello" target="_blank">AIvsOthello</a></p>
     </div>
+
     <div class="project">
-      <h3>Boo</h3>
-      <p><strong>概要：</strong>ステルスホラー3Dアクション。</p>
-      <p><strong>技術スタック：</strong>C#（Unity）、HLSL。</p>
-      <p><strong>工夫した点：</strong>カスタムシェーダー、ロジックモジュール化。</p>
+      <h3>Boo（ステルスホラー3Dアクション）</h3>
+      <p><strong>概要：</strong>幽霊と館をテーマにUnityとShaderLab/HLSLで制作したステルスアクションゲーム。</p>
+      <p><strong>技術スタック：</strong>C#（Unity）、ShaderLab/HLSL。</p>
+      <p><strong>工夫した点：</strong>カスタムシェーダーで暗闇演出を強化し、ゲームロジックをモジュール化して再利用性・可読性を向上しました。</p>
       <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/Boo" target="_blank">Boo</a></p>
     </div>
   </section>
@@ -192,7 +150,8 @@
   <section>
     <h2>研究情報</h2>
     <p><strong>テーマ：</strong>VRChatプラットフォームにおける没入型協力ゲームワールドの構想と設計研究</p>
-    <p>デジタル空間における交流方法が多様化する現代、VRChat上で偶発的な出会いと持続的な関係構築を促進するゲーム環境設計は、バーチャルコミュニティ発展の鍵となる未開拓分野です。Unity環境とUdonシステムを活用した協力型ゲームワールドの設計構想に取り組んでいます。現在は実装前の調査段階として、プレイヤー間の自然な協力を引き出すゲームメカニクスの設計原則について研究を進めています。既存ワールドの分析から、異なるVRデバイス間での操作性の違いや、初対面ユーザー間でも直感的に協力できるインタラクション設計の重要性が見えてきました。これらの知見を基に、「非対称型協力プレイ」を中心概念とした理論フレームワークを構築しています。この研究を通してリアルタイム処理技術や3Dグラフィックス、ユーザー体験設計の知識を実践的に習得し、VR/AR領域だけでなく広くIT分野で応用できる技術基盤を確立したいと考えています。フロントエンドからバックエンドまでを理解したフルスタックエンジニアを目指し、業界全体で通用する確かな技術力を身につけていきたいと考えています。</p>
+    <p>デジタル空間における交流方法が多様化する現代、VRChat上で偶発的な出会いと持続的な関係構築を促進するゲーム環境設計は、バーチャルコミュニティ発展の鍵となる未開拓分野です。Unity環境とUdonシステムを活用した協力型ゲームワールドの設計構想に取り組んでいます。現在は実装前の調査段階として、プレイヤー間の自然な協力を引き出すゲームメカニクスの設計原則について研究を進めています。
+    既存ワールドの分析から、異なるVRデバイス間での操作性の違いや、初対面ユーザー間でも直感的に協力できるインタラクション設計の重要性が見えてきました。これらの知見を基に、「非対称型協力プレイ」を中心概念とした理論フレームワークを構築しています。この研究を通してリアルタイム処理技術や3Dグラフィックス、ユーザー体験設計の知識を実践的に習得し、VR/AR領域だけでなく広くIT分野で応用できる技術基盤を確立したいと考えています。</p>
   </section>
 
   <section>
