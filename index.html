@@ -127,55 +127,19 @@
     <ul>
       <li>過度な完璧主義<br>時に理想を追求するあまり、完璧を求めすぎて進行が遅れることがあります。この傾向を自覚し、過去取り組んだゲーム制作では、「完成版」と「MVP（最小実行可能製品）」を明確に区別し、段階的な開発計画を立てることで、この弱みの克服に努めようと試みました。</li>
       <li>コミュニケーションの直接性<br>論理的で率直なコミュニケーションスタイルが、時に他者には厳しく映ることがあります。チーム開発において、技術的な正確さを追求するあまり、メンバーの感情や背景を十分に考慮できないことがあると自覚しています。この点を改善するため、ゼミでのプロジェクトでは意識的にチームメンバーの状況や意見を定期的に聞く習慣をつけました。結果として、より良い関係性の中でプロジェクトを進行することができました。</li>
-      <li>新しい環境への適応<br>構造化された環境を好む傾向があるため、急な変更や未知の状況に対応するのに時間がかかることがあります。毎回チーム組んだことのない人とチームを組むことで新しい環境でも自分のペースを保ちながら徐々に適応していく方法を学びました。現在は、意識的に自分のコンフォートゾーンを超える課題に取り組むことで、この弱みを克服するよう努めています。例えば、未経験の技術を使った制作に挑戦し、適応力を高めています。</li>
+      <li>新しい環境への適応<br>構造化された環境を好む傾向があるため、急な変更や未知の状況に対応するのに時間がかかることがあります。現在は意識的に自分のコンフォートゾーンを超える課題に取り組むことで、この弱みを克服するよう努めています。例えば、未経験の技術を使った制作に挑戦し、適応力を高めています。</li>
     </ul>
   </section>
 
   <section>
     <h2>制作物</h2>
     <div class="project">
-      <h3>制作物 1: オセロ通信ゲーム</h3>
-      <p><strong>概要：</strong>サーバーとクライアントでオセロができます</p>
-      <p><strong>取り組んだ場所：</strong>学内(授業)制作</p>
-      <p><strong>技術スタック：</strong>C++、Winsock2 API、Windows OS環境。標準C++ライブラリを活用し、ソケットプログラミングでクライアント／サーバー通信とゲーム盤描画機能を実装しています。</p>
-      <p><strong>工夫した点：</strong>クライアントとサーバー間でリアルタイムに通信するゲームシステムを構築しました。エラー処理やリソース管理（WSAStartup/WSACleanup、ZeroMemoryの利用）を徹底し、安全な通信基盤を心がけました</p>
-      <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/ServerOthello" target="_blank">https://github.com/kqlnei/ServerOthello</a></p>
+      <h3>オセロ通信ゲーム</h3>
+      <p><strong>概要：</strong>サーバーとクライアントでオセロができます。</p>
+      <p><strong>技術スタック：</strong>C++、Winsock2 API。ソケットプログラミングを活用し、クライアント／サーバー間のリアルタイム通信を実現。</p>
+      <p><strong>工夫した点：</strong>エラー処理やリソース管理（WSAStartup/WSACleanup、ZeroMemoryの利用）を徹底し、安全で安定した通信基盤を構築しました。</p>
+      <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/ServerOthello" target="_blank">ServerOthello</a></p>
     </div>
     <div class="project">
-      <h3>制作物 2: Dxlib横スクロールシューティング</h3>
-      <p><strong>概要：</strong>Dxlibを使って2D横スクロールシューティングゲームを作りました</p>
-      <p><strong>取り組んだ場所：</strong>学内(授業)制作</p>
-      <p><strong>技術スタック：</strong>C++言語、DxLibライブラリを中心に、Windows APIによるウィンドウ管理や入力処理、DirectXベースの2Dグラフィックス、サウンド再生処理、タイマー管理を活用して構築しています。</p>
-      <p><strong>工夫した点：</strong>各ゲーム要素（プレイヤー、弾、敵、エフェクト）を構造体で定義し、処理の効率化と柔軟な拡張性を実現しました。弾や敵キャラクターの動きは座標とベクトル計算を用いて表現し、背景のスクロール描画や敵の出現タイミング、爆発アニメーションの制御にも工夫を凝らしました。キー入力の状態管理で操作性を向上させました。</p>
-      <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/DxlibShotGame" target="_blank">https://github.com/kqlnei/DxlibShotGame</a></p>
-    </div>
-    <div class="project">
-      <h3>制作物 3: VR敵斬りゲーム</h3>
-      <p><strong>概要：</strong>VRで敵を切り進むゲームです</p>
-      <p><strong>取り組んだ場所：</strong>学内(授業)制作</p>
-      <p><strong>技術スタック：</strong>UnityでMeta XR All-in-One SDKを導入しVRゲームを作成</p>
-      <p><strong>工夫した点：</strong>酔わない設計を最優先し、マップ自動生成、Bossの球の反射、敵の動き、敵を切る処理のプロトタイプを行いました。</p>
-      <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/MetaVRCut" target="_blank">https://github.com/kqlnei/MetaVRCut</a></p>
-    </div>
-    <div class="project">
-      <h3>制作物 4: 2人協力3Dアクションゲーム</h3>
-      <p><strong>概要：</strong>2人協力横スクロール3DアクションゲームをUnityで制作</p>
-      <p><strong>取り組んだ場所：</strong>学内(授業)制作</p>
-      <p><strong>技術スタック：</strong>Unityエンジン（C#スクリプティング、物理エンジン）、Git/GitHub、Visual Studio</p>
-      <p><strong>工夫した点：</strong>2人協力プレイの操作性と画面共有バランスを重視し、ズーム・パン処理付きカメラ制御を実装。Gitによるバージョン管理で効率的なタスク分担とコンフリクト防止を行いました。</p>
-      <p><strong>GitHub：</strong><a href="https://github.com/kqlnei/TwoH2O" target="_blank">https://github.com/kqlnei/TwoH2O</a></p>
-    </div>
-  </section>
-
-  <section>
-    <h2>研究情報</h2>
-    <p><strong>テーマ：</strong>VRChatプラットフォームにおける没入型協力ゲームワールドの構想と設計研究</p>
-    <p>デジタル空間における交流方法が多様化する現代、VRChat上で偶発的な出会いと持続的な関係構築を促進するゲーム環境設計は、バーチャルコミュニティ発展の鍵となる未開拓分野です。Unity環境とUdonシステムを活用した協力型ゲームワールドの設計構想に取り組んでいます。現在は実装前の調査段階として、プレイヤー間の自然な協力を引き出すゲームメカニクスの設計原則について研究を進めています。既存ワールド分析から、異なるVRデバイス間での操作性の違いや、初対面ユーザー間でも直感的に協力できるインタラクション設計の重要性が見えてきました。これらの知見を基に、「非対称型協力プレイ」を中心概念とした理論フレームワークを構築しています。この研究を通してリアルタイム処理技術や3Dグラフィックス、ユーザー体験設計の知識を実践的に習得し、VR/AR領域だけでなく広くIT分野で応用できる技術基盤を確立したいと考えています。</p>
-  </section>
-
-  <section>
-    <h2>リンク</h2>
-    <p><a href="https://github.com/kqlnei" target="_blank">GitHub プロフィールはこちら</a></p>
-  </section>
-</body>
-</html>
+      <h3>AI対戦オセロ</h3>
+      <p><strong>概要：</strong>CPU（AI）と対戦できるオセロゲーム。コンソール上で盤面を操作し、AIの思考アルゴリズムと対局。</p>
